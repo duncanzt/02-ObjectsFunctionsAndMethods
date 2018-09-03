@@ -171,6 +171,12 @@ def turtle3(color, thickness):
 
 
 def try_methods():
+    zach = rg.SimpleTurtle('turtle')
+    zach.pen = rg.Pen('brown', 5)
+    zach.forward(150)
+    zach.left(90)
+    zach.forward(50)
+    zach.backward(100)
     """
     Constructs a SimpleTurtle and sets its   pen   to a new rg.Pen
     that is 'brown' with thickness 5.
@@ -253,5 +259,5 @@ def try_methods_and_functions():
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------
-
+try_methods()
 main()
